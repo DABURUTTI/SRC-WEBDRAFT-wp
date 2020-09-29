@@ -1,10 +1,28 @@
 #defaultCanvas0{
     position: fixed;
     top:0;
+    z-index: -1;
+}
+
+nav{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(255, 61, 61);
 }
 
 main{
     width: 100%;
-    height: 50rem;
-    background-color: red;
+    height: 50rem;;
+}
+
+#explain-head{
+    margin: 70px 70px;
+
+    .card{
+        width :600px;
+        height: 400px;
+        // rgb(245, 245, 245);
+        border-radius: 0px;
+        border-right: 2px solid white;
+    }
 }

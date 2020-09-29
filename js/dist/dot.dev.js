@@ -6,23 +6,6 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-var dot;
-
-function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
-  background(color('#ffc533'));
-  dot = new Dot(10, 10, 1, 20);
-}
-
-function draw() {
-  background(color('#ffc533'));
-  dot.move();
-}
-
-function windowResized() {
-  setup();
-}
-
 var Dot =
 /*#__PURE__*/
 function () {
@@ -41,7 +24,6 @@ function () {
       this.y += this.speed;
       fill(0);
       ellipse(this.x, this.y, this.size, this.size);
-      text(frameCount / millis() * 1000, this.x + 10, this.y);
     }
   }]);
 
