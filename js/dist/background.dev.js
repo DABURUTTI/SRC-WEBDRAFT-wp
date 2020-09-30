@@ -6,17 +6,26 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-var dot;
+var dot = new Array();
+var maxHeight = window.innerHeight;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
   background(color('#ffc533'));
-  dot = new Dot(10, 10, 1, 20);
+
+  for (var i = 0; i < 100; i++) {
+    dot_instance = new Dot(Math.random() * window.innerWidth, Math.random() * window.innerHeight, 1, 20);
+    dot.push(dot_instance);
+  }
+
+  maxHeight = window.innerHeight;
 }
 
 function draw() {
-  background(color('#ffc533'));
-  dot.move();
+  background(color('#ffc53305'));
+  dot.forEach(function (element) {
+    element.move();
+  });
 }
 
 function windowResized() {
@@ -39,9 +48,13 @@ function () {
     key: "move",
     value: function move() {
       this.y += this.speed;
-      fill(0);
-      ellipse(this.x, this.y, this.size, this.size);
-      text(frameCount / millis() * 1000, this.x + 10, this.y);
+      noStroke();
+      fill(255, 255, 255, 40);
+      ellipse(this.x, this.y, this.size, this.size); //text(frameCount/millis()*1000,this.x+10,this.y);
+
+      if (this.y - this.size >= maxHeight) {
+        this.y = -this.size;
+      }
     }
   }]);
 
