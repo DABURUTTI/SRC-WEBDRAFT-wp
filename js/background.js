@@ -39,6 +39,7 @@ function draw(){
     background(255);
     Points.forEach(element => {
         fill(0);
+
         var x  = map(element.x * px, 0, imgSizeX, -window.innerWidth/2, window.innerWidth/2)
         var y  = map(element.y * px, 0, imgSizeY, -window.innerHeight/2, window.innerHeight/2)
         //ellipse(element.x * px,element.y * px, 5, 5);
