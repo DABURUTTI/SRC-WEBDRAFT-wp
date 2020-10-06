@@ -13,7 +13,6 @@ let font;
 function preload() {
     logoImage =  loadImage("../img/logo_w.png");
     font = loadFont("../assets/NotoSansJP-Black.otf");
-
     // fixedLogoImage = createCanvas(window.innerWidth, window.innerHeight);
     // fixedLogoImage.image();
 }
