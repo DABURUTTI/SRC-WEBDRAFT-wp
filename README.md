@@ -1,7 +1,7 @@
 # SRC-WEBDRAFT-wp
 
 ## wtf is dis
-This is DRAFTS of SRC website. It's still work in progress. <br>I'm not sure it's gonna be an official one but I keep coding cuz I need an objective.
+these are DRAFTS of SRC website. It's still work in progress. <br>I'm not sure it's gonna be an official one but I keep coding cuz I need an objective.
 
 ## toDo
 1. Complete design <---
