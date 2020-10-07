@@ -11,3 +11,7 @@ these are DRAFTS of SRC website. It's still work in progress. <br>I'm not sure i
 
 ## Are you drunk
 YES
+
+## Current Preview Image
+final-update 2020:10:07 - 14:55
+![1920 Web – 1](https://user-images.githubusercontent.com/24826149/95292749-0cad9900-08ad-11eb-9a64-b4c2879eab92.png)
