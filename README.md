@@ -1,7 +1,9 @@
 # SRC-WEBDRAFT-wp
 
 ## wtf is dis
-these are DRAFTS of SRC website. It's still work in progress. <br>I'm not sure it's gonna be an official one but I keep coding cuz I need an objective.
+these are DRAFTS of SRC website. It's still work in progress. <br>I'm not sure it's gonna be an official one but I keep coding cuz I need an objective.<br>
+My final conception is it's working as WordPress theme.<br>
+But I have no idea how long It will take, so just please wait for it, (or never happen :/)
 
 ## toDo
 1. Complete design <--- [||||||||||----------] 50% done!
