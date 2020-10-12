@@ -6,7 +6,7 @@ these are DRAFTS of SRC website. It's still work in progress. <br>I'm not sure i
 ## toDo
 1. Complete design <--- [||||||||||----------] 50% done!
 2. MarkUp
-3. Coding Main-Background with p5js or three.js
+3. Coding Main-Background with p5js or three.js <--- [||||||||||----------] 50% done!
 4. turn into php files (wordpress I guess)
 
 ## Are you drunk
